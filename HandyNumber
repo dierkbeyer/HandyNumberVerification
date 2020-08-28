@@ -1,6 +1,6 @@
 /*Konvertiert die Telefonnummer mit dem DataType num in einen String und wandelt duesen in ein Array um */
 
-const numToSeparate = '012345'; // an dieser Stelle muss die Telefonnummer übergeben werden
+const numToSeparate = '0172818xxx'; // an dieser Stelle muss die Telefonnummer übergeben werden
 
 console.log(numToSeparate);
 
@@ -14,7 +14,15 @@ wenn das der Fall ist wird die führende 0 gelöscht und +49 eingefügt */
 const firstNumber = rayOfDigits[0];
 const secoundNumber = rayOfDigits[1];
 
-if(firstNumber === 0 && secoundNumber === 0) {
+if(firstNumber === 0 && secoundNumber !== 0) {
+
+const first = rayOfDigits.shift();
+const newLength3 = rayOfDigits.unshift('9');
+const newLength2 = rayOfDigits.unshift('4');
+const newLength1 = rayOfDigits.unshift('+');
+}
+
+if (firstNumber === 0 && secoundNumber === 0) {
 
 const first = rayOfDigits.shift();
 const second = rayOfDigits.shift();
