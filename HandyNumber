@@ -22,15 +22,6 @@ const newLength2 = rayOfDigits.unshift('4');
 const newLength1 = rayOfDigits.unshift('+');
 }
 
-if (firstNumber === 0 && secoundNumber === 0) {
-
-const first = rayOfDigits.shift();
-const second = rayOfDigits.shift();
-const newLength3 = rayOfDigits.unshift('9');
-const newLength2 = rayOfDigits.unshift('4');
-const newLength1 = rayOfDigits.unshift('+');
-}
-
 console.log(rayOfDigits);
 
 /* fügt das das Array wieder zu einer Nummer zusammen */
