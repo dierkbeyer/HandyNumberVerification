@@ -1,6 +1,6 @@
 /*Konvertiert die Telefonnummer mit dem DataType num in einen String und wandelt duesen in ein Array um */
 
-const numToSeparate = '01728189988'; // an dieser Stelle muss die Telefonnummer übergeben werden
+const numToSeparate = '001728189988'; // an dieser Stelle muss die Telefonnummer übergeben werden
 
 console.log('mein var1: ' + numToSeparate);
 
