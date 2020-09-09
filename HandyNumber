@@ -1,4 +1,4 @@
-/*Konvertiert die Telefonnummer mit dem DataType num in einen String und wandelt duesen in ein Array um */
+/*Konvertiert die Telefonnummer mit dem DataType num in einen String und wandelt diesen in ein Array um */
 
 const numToSeparate = '001728189988'; // an dieser Stelle muss die Telefonnummer übergeben werden
 
@@ -8,8 +8,8 @@ let rayOfDigits = Array.from(numToSeparate);
 
 console.log(rayOfDigits);  //[1,2,3,4,5]
 ''
-/*überprüft, ob an der ersten und zweiten Stelle der Telefonnumer die Zahl 0 steht z:b. für 0049,
-wenn das der Fall ist wird die führende 0 gelöscht und +49 eingefügt */
+/*überprüft, ob an der ersten und zweiten Stelle der Telefonnumer die Zahl 0
+steht z.b. für 0049, wenn das der Fall ist wird die führende 0 gelöscht und +49 eingefügt */
 
 const firstNumber = rayOfDigits[0];
 const secoundNumber = rayOfDigits[1];
